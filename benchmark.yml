@@ -1,0 +1,9 @@
+concurrency: 4
+base: 'http://localhost:8080'
+iterations: 10
+rampup: 2
+
+plan:
+  - name: get index
+    request:
+      url: /
